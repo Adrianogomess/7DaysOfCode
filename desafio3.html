@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+      var area = prompt( "Seja bem vindo escolha qual Area voce deseja Seguir: Front-End ou Back-End? ");
+
+      if (area == "Front-End"){
+          var front = prompt ("voce deseja Aprender React ou Vue?");
+
+      }
+      if(area == "Back-End"){
+        var front = prompt ("voce deseja Aprender C# ou Java?");
+
+      }
+
+      alert(`voce escolheu a area de ${area} e a tecnologia ${front} parabéns! `);
+
+
+      var especialidade = prompt("voce deseja estudar se tornar um Dev Fullstack? sim ou nao?");
+      
+      if(especialidade == "sim"){
+        alert("Muito bem, estudando e praticando se tornará um Dev Fullstack");
+
+      }
+      if(especialidade == "nao"){
+        alert(`Certo,voce escolheu se especializar em ${area}`);
+
+      }    
+      
+      contador = 0;
+
+      while(contador <1){
+
+        estudar = prompt("Tem mais alguma tecnologia ou linguagem que voce pretende estudar sim ou nao?");
+
+       
+
+        if (estudar == 'sim'){
+          var linguagem = prompt(" Qual dessas Linguagens voce quer Estudar? HTML5, CSS3, JavaScript, C++,Java");
+
+        }
+        if(estudar == 'nao'){
+          contador = 1;
+        }
+        switch(linguagem){
+          case 'HTML5':
+          alert ("HTML é uma liguangem de marcacao");
+          break;
+
+          case 'CSS3':
+          alert ("CSS é responsável pela Estilizacao do HTML");
+          break;
+
+          case 'C++':
+          alert ("C++ é uma Linguagem de Programacao Muito ultilizada ");
+          break;
+
+          case 'JavaScript':
+          alert ("JavaScript é uma Linguagem de Programacao Muito Dinamica ");
+          break;
+
+          case 'Java':
+          alert("Java é uma Linguagem muito Ultizada que se Adapta a diferentes projetos");
+          break;
+
+
+        }
+        
+
+
+      }
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
+
+
+
+
